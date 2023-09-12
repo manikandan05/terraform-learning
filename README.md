@@ -1,11 +1,11 @@
 # Terraform Infrastructure as Code (IaC)
 
-## What is Terrafrom?
+## What is terraform?
 Terraform is an infrastructure-as-code software tool (primarily used by DevOps team) created by HashiCorp. Users define and provide data center infrastructure using a declarative configuration language known as HashiCorp Configuration Language. It lets you build, change, and version cloud and on-prem resources safely and efficiently.
 
 HashiCrop released their initial release 28 July 2014. It is written in Go lang.
 
-## Terrafrom - IaC uses
+## terraform - IaC uses
 **Improve speed:** Automation is faster than manually navigating an interface when you need to deploy and/or connect resources.
 
 **Improve reliability:** If your infrastructure is large, it becomes easy to misconfigure a resource or provision services in the wrong order. With IaC, the resources are always provisioned and configured exactly as declared.
@@ -31,7 +31,7 @@ There are a few key reasons developers choose to use Terraform over other Infras
 
 **Immutable infrastructure:** Most Infrastructure as Code tools create mutable infrastructure, meaning the infrastructure can change to accommodate changes such as a middleware upgrade or new storage server. The danger with mutable infrastructure is configuration drift—as the changes pile up, the actual provisioning of different servers or other infrastructure elements ‘drifts’ further from the original configuration, making bugs or performance issues difficult to diagnose and correct. Terraform provisions immutable infrastructure, which means that with each change to the environment, the current configuration is replaced with a new one that accounts for the change, and the infrastructure is reprovisioned. Even better, previous configurations can be retained as versions to enable rollbacks if necessary or desired.
 
-## Terrafrom main features
+## terraform main features
 **Infrastructure as Code:** Infrastructure is described using a high-level configuration syntax. This allows a blueprint of your datacenter to be versioned and treated as you would any other code. Additionally, infrastructure can be shared and re-used.
 
 **Execution Plans:** Terraform has a "planning" step where it generates an execution plan. The execution plan shows what Terraform will do when you call apply. This lets you avoid any surprises when Terraform manipulates infrastructure.
@@ -65,7 +65,7 @@ Terraform and Ansible are both Infrastructure as Code tools, but there are a cou
 - Terraform is open source; Ansible is developed and sold by Red Hat.
 
 ## Dive into Terraform
-Now lets learn about terrafrom major terms and its purpose.
+Now lets learn about terraform major terms and its purpose.
 
 ### Modules
 Terraform modules are small, reusable Terraform configurations for multiple infrastructure resources that are used together. Terraform modules are useful because they allow complex resources to be automated with re-usable, configurable constructs. Writing even a very simple Terraform file results in a module. 
