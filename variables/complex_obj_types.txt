@@ -1,0 +1,2 @@
+Created Time : Sep 12, 2023
+Student name is Alex and age is 28. He is graded in high school as true.

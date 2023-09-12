@@ -1,0 +1,8 @@
+Created Time : Sep 12, 2023
+Student Name is Alex and age is 28. He is graded in high school as true. 
+The last exam subject grades are 
+Sub 1 : A 
+Sub 2 : B 
+Sub 3 : A 
+Sub 4 : C 
+Sub 5 : B 
